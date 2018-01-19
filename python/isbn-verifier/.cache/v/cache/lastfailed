@@ -1,0 +1,11 @@
+{
+  "isbn_verifier_test.py::IsbnVerifierTests::test_invalid_X_other_than_check_digit": true,
+  "isbn_verifier_test.py::IsbnVerifierTests::test_invalid_character_in_isbn": true,
+  "isbn_verifier_test.py::IsbnVerifierTests::test_invalid_check_digit_X_used_for_0": true,
+  "isbn_verifier_test.py::IsbnVerifierTests::test_invalid_check_digit_other_than_X": true,
+  "isbn_verifier_test.py::IsbnVerifierTests::test_invalid_too_long_isbn": true,
+  "isbn_verifier_test.py::IsbnVerifierTests::test_invalid_too_long_isbn_with_no_dashes": true,
+  "isbn_verifier_test.py::IsbnVerifierTests::test_valid_empty_isbn": true,
+  "isbn_verifier_test.py::IsbnVerifierTests::test_valid_isbn_without_separating_dashes_with_X_check_digit": true,
+  "isbn_verifier_test.py::IsbnVerifierTests::test_valid_with_X_check_digit": true
+}
