@@ -1,0 +1,129 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:1:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.{Matchers, FunSuite}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:4:34: not found: type FunSuite[0m
+[0m[[0m[31merror[0m] [0m[0mclass SumOfMultiplesTest extends FunSuite with Matchers {[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:4:48: not found: type Matchers[0m
+[0m[[0m[31merror[0m] [0m[0mclass SumOfMultiplesTest extends FunSuite with Matchers {[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:6:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("multiples of 3 or 5 up to 1") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:7:5: not found: value SumOfMultiples[0m
+[0m[[0m[31merror[0m] [0m[0m    SumOfMultiples.sum(Set(3, 5), 1) should be (0)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:7:45: not found: value be[0m
+[0m[[0m[31merror[0m] [0m[0m    SumOfMultiples.sum(Set(3, 5), 1) should be (0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:10:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("multiples of 3 or 5 up to 4") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:11:5: not found: value pending[0m
+[0m[[0m[31merror[0m] [0m[0m    pending[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:12:5: not found: value SumOfMultiples[0m
+[0m[[0m[31merror[0m] [0m[0m    SumOfMultiples.sum(Set(3, 5), 4) should be (3)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:12:45: not found: value be[0m
+[0m[[0m[31merror[0m] [0m[0m    SumOfMultiples.sum(Set(3, 5), 4) should be (3)[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:15:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("multiples of 3 up to 7") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:16:5: not found: value pending[0m
+[0m[[0m[31merror[0m] [0m[0m    pending[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:17:5: not found: value SumOfMultiples[0m
+[0m[[0m[31merror[0m] [0m[0m    SumOfMultiples.sum(Set(3), 7) should be (9)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:17:42: not found: value be[0m
+[0m[[0m[31merror[0m] [0m[0m    SumOfMultiples.sum(Set(3), 7) should be (9)[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:20:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("multiples of 3 or 5 up to 10") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:21:5: not found: value pending[0m
+[0m[[0m[31merror[0m] [0m[0m    pending[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:22:5: not found: value SumOfMultiples[0m
+[0m[[0m[31merror[0m] [0m[0m    SumOfMultiples.sum(Set(3, 5), 10) should be (23)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:22:46: not found: value be[0m
+[0m[[0m[31merror[0m] [0m[0m    SumOfMultiples.sum(Set(3, 5), 10) should be (23)[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:25:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("multiples of 3 or 5 up to 100") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:26:5: not found: value pending[0m
+[0m[[0m[31merror[0m] [0m[0m    pending[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:27:5: not found: value SumOfMultiples[0m
+[0m[[0m[31merror[0m] [0m[0m    SumOfMultiples.sum(Set(3, 5), 100) should be (2318)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:27:47: not found: value be[0m
+[0m[[0m[31merror[0m] [0m[0m    SumOfMultiples.sum(Set(3, 5), 100) should be (2318)[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:30:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("multiples of 3 or 5 up to 1000") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:31:5: not found: value pending[0m
+[0m[[0m[31merror[0m] [0m[0m    pending[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:32:5: not found: value SumOfMultiples[0m
+[0m[[0m[31merror[0m] [0m[0m    SumOfMultiples.sum(Set(3, 5), 1000) should be (233168)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:32:48: not found: value be[0m
+[0m[[0m[31merror[0m] [0m[0m    SumOfMultiples.sum(Set(3, 5), 1000) should be (233168)[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:35:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("multiples of 7, 13 or 17 up to 20") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:36:5: not found: value pending[0m
+[0m[[0m[31merror[0m] [0m[0m    pending[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:37:5: not found: value SumOfMultiples[0m
+[0m[[0m[31merror[0m] [0m[0m    SumOfMultiples.sum(Set(7, 13, 17), 20) should be (51)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:37:51: not found: value be[0m
+[0m[[0m[31merror[0m] [0m[0m    SumOfMultiples.sum(Set(7, 13, 17), 20) should be (51)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:40:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("multiples of 4 or 6 up to 15") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:41:5: not found: value pending[0m
+[0m[[0m[31merror[0m] [0m[0m    pending[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:42:5: not found: value SumOfMultiples[0m
+[0m[[0m[31merror[0m] [0m[0m    SumOfMultiples.sum(Set(4, 6), 15) should be (30)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:42:46: not found: value be[0m
+[0m[[0m[31merror[0m] [0m[0m    SumOfMultiples.sum(Set(4, 6), 15) should be (30)[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:45:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("multiples of 5, 6 or 8 up to 150") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:46:5: not found: value pending[0m
+[0m[[0m[31merror[0m] [0m[0m    pending[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:47:5: not found: value SumOfMultiples[0m
+[0m[[0m[31merror[0m] [0m[0m    SumOfMultiples.sum(Set(5, 6, 8), 150) should be (4419)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:47:50: not found: value be[0m
+[0m[[0m[31merror[0m] [0m[0m    SumOfMultiples.sum(Set(5, 6, 8), 150) should be (4419)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:50:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("multiples of 5 or 25 up to 51") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:51:5: not found: value pending[0m
+[0m[[0m[31merror[0m] [0m[0m    pending[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:52:5: not found: value SumOfMultiples[0m
+[0m[[0m[31merror[0m] [0m[0m    SumOfMultiples.sum(Set(5, 25), 51) should be (275)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:52:47: not found: value be[0m
+[0m[[0m[31merror[0m] [0m[0m    SumOfMultiples.sum(Set(5, 25), 51) should be (275)[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\sum-of-multiples\src\test\scala\SumOfMultiplesTest.scala:55:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("multiples of 43 or 47 up to 10000") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m

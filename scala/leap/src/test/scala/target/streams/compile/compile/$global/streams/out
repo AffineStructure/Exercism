@@ -1,0 +1,33 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\leap\src\test\scala\LeapTest.scala:1:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.{Matchers, FunSuite}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\leap\src\test\scala\LeapTest.scala:4:24: not found: type FunSuite[0m
+[0m[[0m[31merror[0m] [0m[0mclass LeapTest extends FunSuite with Matchers {[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\leap\src\test\scala\LeapTest.scala:4:38: not found: type Matchers[0m
+[0m[[0m[31merror[0m] [0m[0mclass LeapTest extends FunSuite with Matchers {[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\leap\src\test\scala\LeapTest.scala:6:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("year not divisible by 4: common year") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\leap\src\test\scala\LeapTest.scala:7:5: not found: value Leap[0m
+[0m[[0m[31merror[0m] [0m[0m    Leap.leapYear(2015) should be (false)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\leap\src\test\scala\LeapTest.scala:7:32: not found: value be[0m
+[0m[[0m[31merror[0m] [0m[0m    Leap.leapYear(2015) should be (false)[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\leap\src\test\scala\LeapTest.scala:10:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("year divisible by 4, not divisible by 100: leap year") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\leap\src\test\scala\LeapTest.scala:11:5: not found: value pending[0m
+[0m[[0m[31merror[0m] [0m[0m    pending[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\leap\src\test\scala\LeapTest.scala:12:5: not found: value Leap[0m
+[0m[[0m[31merror[0m] [0m[0m    Leap.leapYear(2016) should be (true)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\leap\src\test\scala\LeapTest.scala:12:32: not found: value be[0m
+[0m[[0m[31merror[0m] [0m[0m    Leap.leapYear(2016) should be (true)[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Exercism\scala\leap\src\test\scala\LeapTest.scala:15:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("year divisible by 100, not divisible by 400: common year") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
